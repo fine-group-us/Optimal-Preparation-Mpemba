@@ -7,6 +7,8 @@ from matplotlib import rc
 rc('font', **{'family': 'serif', 'serif': ['Times']})
 rc('text', usetex=True)
 
+# This code generates the plots of Fig 3. Data may be generated before running this code.
+
 d=3
 
 def a2s(a):
