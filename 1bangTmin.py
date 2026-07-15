@@ -9,6 +9,9 @@ rc('text', usetex=True)
 
 opt = sys.argv[1]
 
+#This code solves the system of differential equations describing the granular gas in the linear first Sonine aproximation for a constant control chi=chimax. To generate different types of plot, change the True/False parameters below. By default, it generates the plots corresponding to Fig 1 and Fig 2 of the article.
+# If write_data True, it generates the data used to generate Fig 4. If density=True it generates the data used in Fig 3
+
 graphs = True
 Tgraphs = False
 write_data = False
