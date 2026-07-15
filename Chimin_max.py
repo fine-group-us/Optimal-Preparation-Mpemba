@@ -4,6 +4,8 @@ from matplotlib import rc
 rc('font', **{'family': 'serif', 'serif': ['Times']})
 rc('text', usetex=True)
 
+# This code generates the plots of Fig 4. Data may be generated before running this code.
+
 data = np.loadtxt("Chimaxvsalfa10.0.dat")
 alphas = data[:, 0]
 a2mins  = data[:, 1]
